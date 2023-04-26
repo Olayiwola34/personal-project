@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer Application</title>
+    <link rel="stylesheet" href="index.css"/>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+<h1>This is my timer application</h1>
+<div class="ipts">
+<input type="number" id="input-hour" placeholder="Hour"/>
+<input type="number" id="input-minutes" placeholder="Minutes"/>
+<input type="number" id="input-seconds" placeholder="Seconds"/>
+</div>
+<div class="btn">
+<button id="start-btn" onclick="startCounting()">Start</button>
+<button id="pause-btn" onclick="pauseCounting()">Pause</button>
+<button id="stop-btn" onclick="stopCounting()">Stop</button>
+</div>
+
+
+<p id="currentTime"> This is the current time reading :</p>
+    </div>
+</body>
+</html>
